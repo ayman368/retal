@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.gemini/
+*.mp4
+*.webp
+node_modules/

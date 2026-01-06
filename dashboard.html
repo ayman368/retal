@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Dashboard | Retal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Optional for future charts -->
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar / Navigation -->
+        <nav class="sidebar">
+            <div class="brand">
+                <div class="logo-icon"></div>
+                <h2>ZAKHM</h2>
+            </div>
+            <ul class="nav-links">
+                <li class="active" data-tab="overview">
+                    Overview
+                </li>
+                <li data-tab="financials">
+                    Financials
+                </li>
+                <li data-tab="profile">
+                    Company Profile
+                </li>
+                <li data-tab="shareholders">
+                    Shareholders
+                </li>
+                <li data-tab="peers">
+                    Peer Analysis
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="top-bar">
+                <div class="company-identity">
+                    <h1 id="companyName">Loading...</h1>
+                    <span class="badge" id="companySymbol">...</span>
+                </div>
+                <div class="market-status">
+                    <div class="price-box">
+                        <span class="current-price" id="currentPrice">--.--</span>
+                        <span class="change-tag" id="priceChange">--%</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Dashboard Views -->
+            <div id="overview" class="view-section active">
+                <div class="stats-grid" id="statsGrid">
+                    <!-- Stats cards injected here -->
+                </div>
+
+                <!-- Trade Updates -->
+                <div class="card wide mt-4" id="tradeUpdatesContainer" style="display:none;">
+                    <h3>Trade Updates</h3>
+                    <div class="stats-grid" id="tradeUpdatesGrid">
+                        <!-- Injected -->
+                    </div>
+                </div>
+
+                <!-- Announcements & Corporate Actions -->
+                <div class="content-row" style="grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                    <div class="card">
+                        <h3>Announcements</h3>
+                        <div class="list-container custom-scrollbar"
+                            style="max-height: 400px; overflow-y: auto; padding: 0 1rem;" id="announcementsList">
+                            <!-- Injected -->
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Corporate Actions</h3>
+                        <div class="list-container custom-scrollbar"
+                            style="max-height: 400px; overflow-y: auto; padding: 0 1rem;" id="corporateActionsList">
+                            <!-- Injected -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-row">
+                    <div class="card wide">
+                        <h3>Dividends</h3>
+                        <div class="table-responsive">
+                            <table class="clean-table" id="dividendsTable">
+                                <thead>
+                                    <tr>
+                                        <th>Announced Date</th>
+                                        <th>Eligibility Date</th>
+                                        <th>Distribution Date</th>
+                                        <th>Distribution Way</th>
+                                        <th>Dividend Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="financials" class="view-section">
+                <div class="financial-controls">
+                    <div class="toggle-group">
+                        <button class="toggle-btn active" onclick="setFinancialPeriod('Annually')">Annually</button>
+                        <button class="toggle-btn" onclick="setFinancialPeriod('Quarterly')">Quarterly</button>
+                    </div>
+                    <div class="tabs-group">
+                        <button class="tab-btn active" onclick="setFinancialStatement('Balance_Sheet')">Balance
+                            Sheet</button>
+                        <button class="tab-btn" onclick="setFinancialStatement('Statement_of_Income')">Income
+                            Statement</button>
+                        <button class="tab-btn" onclick="setFinancialStatement('Cash_Flows')">Cash Flow</button>
+                    </div>
+                </div>
+                <div class="card full-height">
+                    <div class="table-responsive custom-scrollbar">
+                        <table class="financial-table" id="financialsTable">
+                            <!-- Dynamic Header and Body -->
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="profile" class="view-section">
+                <div class="profile-grid">
+                    <div class="card profile-text" id="profileTextContainer">
+                        <!-- Overview and History -->
+                    </div>
+                    <div class="card no-padding">
+                        <div class="card-header">
+                            <h3>Equity Profile</h3>
+                        </div>
+                        <div class="equity-list" id="equityList">
+                            <!-- Key Value Pairs -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card wide mt-4" style="margin-top: 1.5rem;">
+                    <h3>Group Structure & Subsidiaries</h3>
+                    <div class="table-responsive">
+                        <table class="clean-table" id="subsidiariesTable">
+                            <thead>
+                                <tr>
+                                    <th>Subsidiary Name</th>
+                                    <th>Ownership %</th>
+                                    <th>Main Business</th>
+                                    <th>Location</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="shareholders" class="view-section">
+                <div class="card">
+                    <h3>Shareholders</h3>
+                    <table class="clean-table" id="shareholdersTable">
+                        <thead>
+                            <tr>
+                                <th>Trading Date</th>
+                                <th>Shareholder</th>
+                                <th>Role</th>
+                                <th>Total Shares Held Prev Trading Day</th>
+                                <th>Trading Day</th>
+                                <th>Change</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="peers" class="view-section">
+                <div class="card">
+                    <h3>Peer Comparison</h3>
+                    <div class="table-responsive">
+                        <table class="clean-table" id="peersTable">
+                            <thead>
+                                <!-- Dynamic Headers -->
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Data Source -->
+    <script src="company_data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
