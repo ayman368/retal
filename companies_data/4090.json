@@ -1,0 +1,281 @@
+{
+    "symbol": "4090",
+    "financial_information": {
+        "Annually_Balance_Sheet": [
+            [
+                {
+                    "Balance Sheet": "Total Assets",
+                    "2024-12-31": "9,850,008",
+                    "2023-12-31": "9,521,482",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "Total Liabilities",
+                    "2024-12-31": "2,920,723",
+                    "2023-12-31": "2,902,038",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "Total Shareholders Equity (After Deducting the Minority Equity)",
+                    "2024-12-31": "6,847,580",
+                    "2023-12-31": "6,559,194",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "Total Liabilities and Shareholders Equity",
+                    "2024-12-31": "9,850,008",
+                    "2023-12-31": "9,521,482",
+                    "col_3": "-",
+                    "col_4": "-"
+                }
+            ]
+        ],
+        "Annually_Statement_Of_Income": [
+            [
+                {
+                    "Balance Sheet": "Total Revenue (Sales/Operating)",
+                    "2024-12-31": "1,315,282",
+                    "2023-12-31": "536,407",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "Net Profit (Loss) before Zakat and Tax",
+                    "2024-12-31": "351,824",
+                    "2023-12-31": "120,460",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "Zakat and Income Tax",
+                    "2024-12-31": "-19,131",
+                    "2023-12-31": "-10,540",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "Net Profit (Loss) after Zakat and Tax",
+                    "2024-12-31": "332,693",
+                    "2023-12-31": "109,799",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "Total Comprehensive Income",
+                    "2024-12-31": "444,641",
+                    "2023-12-31": "208,156",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "Profit (Loss) per Share",
+                    "2024-12-31": "1.28",
+                    "2023-12-31": "0.65",
+                    "col_3": "-",
+                    "col_4": "-"
+                }
+            ]
+        ],
+        "Annually_Cash_Flows": [
+            [
+                {
+                    "Balance Sheet": "Net Cash From Operating Activities",
+                    "2024-12-31": "643,359",
+                    "2023-12-31": "318,431",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "Net Cash From Investing Activities",
+                    "2024-12-31": "-385,552",
+                    "2023-12-31": "-278,593",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "Net Cash From Financing Activities",
+                    "2024-12-31": "-401,489",
+                    "2023-12-31": "161,032",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "Cash and Cash Equivalents, Beginning of the Period",
+                    "2024-12-31": "388,501",
+                    "2023-12-31": "187,631",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "Cash and Cash Equivalents, End of the Period",
+                    "2024-12-31": "244,819",
+                    "2023-12-31": "388,501",
+                    "col_3": "-",
+                    "col_4": "-"
+                },
+                {
+                    "Balance Sheet": "All Figures in",
+                    "2024-12-31": "Thousands",
+                    "2023-12-31": "Thousands",
+                    "col_3": "",
+                    "col_4": ""
+                },
+                {
+                    "Balance Sheet": "All Currency In",
+                    "2024-12-31": "^",
+                    "2023-12-31": "^",
+                    "col_3": "",
+                    "col_4": ""
+                },
+                {
+                    "Balance Sheet": "Last Update Date",
+                    "2024-12-31": "2025-03-27",
+                    "2023-12-31": "2024-04-02",
+                    "col_3": "",
+                    "col_4": ""
+                }
+            ]
+        ],
+        "Quarterly_Balance_Sheet": [
+            [
+                {
+                    "Balance Sheet": "Total Assets",
+                    "2025-09-30": "10,132,855",
+                    "2025-06-30": "9,974,449",
+                    "2025-03-31": "9,987,880",
+                    "2024-09-30": "9,576,592"
+                },
+                {
+                    "Balance Sheet": "Total Liabilities",
+                    "2025-09-30": "3,181,797",
+                    "2025-06-30": "3,087,853",
+                    "2025-03-31": "2,946,345",
+                    "2024-09-30": "2,764,585"
+                },
+                {
+                    "Balance Sheet": "Total Shareholders Equity (After Deducting the Minority Equity)",
+                    "2025-09-30": "6,872,774",
+                    "2025-06-30": "6,807,178",
+                    "2025-03-31": "6,961,331",
+                    "2024-09-30": "6,704,165"
+                },
+                {
+                    "Balance Sheet": "Total Liabilities and Shareholders Equity",
+                    "2025-09-30": "10,132,855",
+                    "2025-06-30": "9,974,449",
+                    "2025-03-31": "9,987,880",
+                    "2024-09-30": "9,576,592"
+                }
+            ]
+        ],
+        "Quarterly_Statement_Of_Income": [
+            [
+                {
+                    "Balance Sheet": "Total Revenue (Sales/Operating)",
+                    "2025-09-30": "276,266",
+                    "2025-06-30": "370,014",
+                    "2025-03-31": "357,824",
+                    "2024-09-30": "268,524"
+                },
+                {
+                    "Balance Sheet": "Net Profit (Loss) before Zakat and Tax",
+                    "2025-09-30": "62,771",
+                    "2025-06-30": "110,028",
+                    "2025-03-31": "137,394",
+                    "2024-09-30": "63,575"
+                },
+                {
+                    "Balance Sheet": "Zakat and Income Tax",
+                    "2025-09-30": "-3,214",
+                    "2025-06-30": "-3,719",
+                    "2025-03-31": "-6,154",
+                    "2024-09-30": "-4,513"
+                },
+                {
+                    "Balance Sheet": "Net Profit (Loss) after Zakat and Tax",
+                    "2025-09-30": "59,556",
+                    "2025-06-30": "106,309",
+                    "2025-03-31": "131,240",
+                    "2024-09-30": "59,061"
+                },
+                {
+                    "Balance Sheet": "Total Comprehensive Income",
+                    "2025-09-30": "64,759",
+                    "2025-06-30": "40,403",
+                    "2025-03-31": "113,651",
+                    "2024-09-30": "111,661"
+                },
+                {
+                    "Balance Sheet": "Profit (Loss) per Share",
+                    "2025-09-30": "0.23",
+                    "2025-06-30": "0.41",
+                    "2025-03-31": "0.5",
+                    "2024-09-30": "0.23"
+                }
+            ]
+        ],
+        "Quarterly_Cash_Flows": [
+            [
+                {
+                    "Balance Sheet": "Net Cash From Operating Activities",
+                    "2025-09-30": "317,257",
+                    "2025-06-30": "188,783",
+                    "2025-03-31": "136,731",
+                    "2024-09-30": "396,802"
+                },
+                {
+                    "Balance Sheet": "Net Cash From Investing Activities",
+                    "2025-09-30": "-485,548",
+                    "2025-06-30": "-302,196",
+                    "2025-03-31": "-157,971",
+                    "2024-09-30": "-146,837"
+                },
+                {
+                    "Balance Sheet": "Net Cash From Financing Activities",
+                    "2025-09-30": "40,982",
+                    "2025-06-30": "-31,651",
+                    "2025-03-31": "8,832",
+                    "2024-09-30": "-308,120"
+                },
+                {
+                    "Balance Sheet": "Cash and Cash Equivalents, Beginning of the Period",
+                    "2025-09-30": "244,819",
+                    "2025-06-30": "244,819",
+                    "2025-03-31": "244,819",
+                    "2024-09-30": "388,501"
+                },
+                {
+                    "Balance Sheet": "Cash and Cash Equivalents, End of the Period",
+                    "2025-09-30": "117,510",
+                    "2025-06-30": "99,754",
+                    "2025-03-31": "232,411",
+                    "2024-09-30": "330,347"
+                },
+                {
+                    "Balance Sheet": "All Figures in",
+                    "2025-09-30": "Thousands",
+                    "2025-06-30": "Thousands",
+                    "2025-03-31": "Thousands",
+                    "2024-09-30": "Thousands"
+                },
+                {
+                    "Balance Sheet": "All Currency In",
+                    "2025-09-30": "^",
+                    "2025-06-30": "^",
+                    "2025-03-31": "^",
+                    "2024-09-30": "^"
+                },
+                {
+                    "Balance Sheet": "Last Update Date",
+                    "2025-09-30": "2025-11-03",
+                    "2025-06-30": "2025-08-14",
+                    "2025-03-31": "2025-05-14",
+                    "2024-09-30": "2024-11-17"
+                }
+            ]
+        ]
+    }
+}

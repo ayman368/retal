@@ -580,20 +580,89 @@ class SaudiExchangeScraper:
                          await page.wait_for_timeout(2000)
                 except: pass
 
-            # 2. Extract Table (Once per period)
-            # We don't need to click separate statements (Income/CashFlow) 
-            # because we found they are all loaded in the same table structure.
-            print(f"    -> Extracting full table for {period}...")
-            
-            tables = await self._extract_all_tables(page)
-            if tables and len(tables) > 0:
-                # Save with a simple key. 
-                # e.g. "Annually" and "Quarterly"
-                financial_data[period] = tables
-                print(f"      -> Success: Extracted {len(tables)} tables for {period}")
-            else:
-                print(f"      -> Warning: No tables found for {period}")
+            # 1.5 Expand Data (Display Previous Periods)
+            # The user wants to click "Display Previous Periods" to load ~4 more years of data.
 
+
+            # 2. Extract Table (Initial / Short)
+            print(f"    -> Extracting initial table for {period}...")
+            tables_short = await self._extract_all_tables(page)
+            if tables_short:
+                financial_data[f"{period}_Short"] = tables_short
+
+            # 3. Expand Data (Display Previous Periods)
+            try:
+                expand_btn = page.get_by_text("Display Previous Periods", exact=False)
+                if await expand_btn.count() > 0:
+                    first_btn = expand_btn.first
+                    if await first_btn.is_visible():
+                        print(f"    -> Found 'Display Previous Periods' for {period}, clicking...")
+                        await first_btn.click()
+                        await page.wait_for_timeout(4000)
+            except Exception as e:
+                print(f"    -> Info: Could not expand previous periods: {e}")
+
+            # 4. Extract Tables (Expanded - Iterating through Statement Types)
+            print(f"    -> Extracting expanded tables for {period} (Iterating sub-tabs)...")
+            
+            # Note exact capitalization from screenshots
+            statement_types = ["Balance Sheet", "Statement Of Income", "Cash Flows"]
+            found_any_expanded = False
+            
+            for stmt in statement_types:
+                try:
+                    # Strategy 1: strict/lenient text match
+                    # We try to find the tab. The user noted "Statement Of Income" (capital O) might be key.
+                    clicked = False
+                    
+                    # Try specific text variations
+                    # (Sometimes specific capitalization matters or trailing spaces)
+                    candidates = page.get_by_text(stmt, exact=False)
+                    if await candidates.count() > 0:
+                        for i in range(await candidates.count()):
+                            el = candidates.nth(i)
+                            if await el.is_visible():
+                                try:
+                                    await el.click(timeout=1500)
+                                    clicked = True
+                                    break
+                                except: pass
+                    
+                    # Strategy 2: If simple text failed, try broad XPath
+                    if not clicked:
+                        xpath = f"//*[contains(text(), '{stmt}')] | //*[contains(text(), '{stmt.upper()}')]"
+                        x_candidates = page.locator(f"xpath={xpath}")
+                        for i in range(await x_candidates.count()):
+                             el = x_candidates.nth(i)
+                             if await el.is_visible():
+                                 try:
+                                     await el.click(timeout=1500)
+                                     clicked = True
+                                     break
+                                 except: pass
+
+                    if clicked:
+                         await page.wait_for_timeout(3000) # Wait for table load
+                         print(f"      -> Clicked '{stmt}', scraping...")
+                         tables_stmt = await self._extract_all_tables(page)
+                         
+                         if tables_stmt:
+                             # Use a clean key
+                             clean_key = f"{period}_{stmt.replace(' ', '_')}"
+                             financial_data[clean_key] = tables_stmt
+                             found_any_expanded = True
+                             print(f"      -> Saved {len(tables_stmt)} tables to {clean_key}")
+                    else:
+                        print(f"      -> Warning: Could not find clickable tab for {stmt}")
+                except Exception as e:
+                    print(f"      -> Error scraping {stmt}: {e}")
+
+            if not found_any_expanded:
+                 print(f"      -> Fallback: No statement tabs found, scraping current view as generic '{period}'...")
+                 tables_full = await self._extract_all_tables(page)
+                 if tables_full:
+                    financial_data[period] = tables_full
+        
         return financial_data
 
 async def main():

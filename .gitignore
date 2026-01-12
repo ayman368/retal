@@ -1,6 +1,12 @@
 __pycache__/
-*.pyc
+*.py[cod]
+.venv/
 .gemini/
 *.mp4
 *.webp
 node_modules/
+.vscode/
+.cursor/
+debug_*.py
+scratch_*.json
+temp_*.json

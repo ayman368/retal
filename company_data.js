@@ -2,26 +2,26 @@ const companyData = {
     "company_symbol": "4322",
     "header_info": {
         "company_name": "Retal Urban Development Co.",
-        "change": "0.12 (1.06%)",
-        "price": "11.39"
+        "change": "-0.20 (-1.81%)",
+        "price": "10.85"
     },
     "stats_overview": {
-        "Prev. Close": "11.27",
-        "Open": "11.30",
-        "High": "11.50",
-        "Low": "11.30",
-        "YTD% Change": "-2.82",
-        "No. of Trades": "780",
-        "Avg. Trade size": "493",
-        "Volume Traded": "384,648",
-        "Value Traded": "4,385,710.17"
+        "Prev. Close": "11.05",
+        "Open": "11.11",
+        "High": "11.11",
+        "Low": "10.57",
+        "YTD% Change": "-7.42",
+        "No. of Trades": "3,456",
+        "Avg. Trade size": "501",
+        "Volume Traded": "1,730,763",
+        "Value Traded": "18,621,775.57"
     },
     "trade_updates": {
-        "Last Trade": "Last Trade Price 11.39 % Change 1.06 Volume Traded 1,000",
-        "Best Bid": "Best Bid Price 11.38 Volume 2,782",
-        "Best Offer": "Best Offer Price 11.40 Volume 5,887",
-        "52 Week High": "52 WEEK High 18.24 2025/04/03 Low 10.88 2025/09/08 Change** -28.0",
-        "PERFORMANCE": "PERFORMANCE Start of Year 11.8 Year ago 15.82 3 Years ago 9.82"
+        "Last Trade": "Last Trade Price 10.85 % Change -1.81 Volume Traded 999",
+        "Best Bid": "Best Bid Price 10.80 Volume 128",
+        "Best Offer": "Best Offer Price 10.85 Volume 101,072",
+        "52 Week High": "52 WEEK High 18.24 2025/04/03 Low 10.57 2026/01/08 Change** -32.02",
+        "PERFORMANCE": "PERFORMANCE Start of Year 11.8 Year ago 15.96 3 Years ago 9.77"
     },
     "announcements": [
         {
@@ -70,8 +70,8 @@ const companyData = {
             [
                 {
                     "Name": "Retal Urban Development Co.",
-                    "Price": "11.30",
-                    "Change %": "1.06%",
+                    "Price": "11.11",
+                    "Change %": "-1.81%",
                     "col_3": "-"
                 }
             ],
@@ -256,7 +256,7 @@ const companyData = {
             ],
             [
                 {
-                    "Trading Date": "2026-01-05",
+                    "Trading Date": "2026-01-08",
                     "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                     "Designation": "Board of Directors",
                     "Total Shares Held Trading Day": "3.5700000%",
@@ -264,7 +264,7 @@ const companyData = {
                     "Total Shares Change": "0"
                 },
                 {
-                    "Trading Date": "2026-01-05",
+                    "Trading Date": "2026-01-08",
                     "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                     "Designation": "Senior Executives",
                     "Total Shares Held Trading Day": "3.5700000%",
@@ -272,7 +272,7 @@ const companyData = {
                     "Total Shares Change": "0"
                 },
                 {
-                    "Trading Date": "2026-01-05",
+                    "Trading Date": "2026-01-08",
                     "Shareholders": "خالد مالك رفيق صادق الشريف",
                     "Designation": "Board of Directors",
                     "Total Shares Held Trading Day": "0.0000400%",
@@ -282,13 +282,13 @@ const companyData = {
             ],
             [
                 {
-                    "Retal Urban Development Co.": "Price   \t\n                                       \t11.39"
+                    "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
                 },
                 {
-                    "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,635"
+                    "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
                 },
                 {
-                    "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.9"
+                    "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
                 }
             ],
             [
@@ -335,8 +335,8 @@ const companyData = {
             [
                 {
                     "Name": "Retal Urban Development Co.",
-                    "Price": "11.30",
-                    "Change %": "1.06%",
+                    "Price": "11.11",
+                    "Change %": "-1.81%",
                     "col_3": "-"
                 }
             ],
@@ -521,7 +521,7 @@ const companyData = {
             ],
             [
                 {
-                    "Trading Date": "2026-01-05",
+                    "Trading Date": "2026-01-08",
                     "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                     "Designation": "Board of Directors",
                     "Total Shares Held Trading Day": "3.5700000%",
@@ -529,7 +529,7 @@ const companyData = {
                     "Total Shares Change": "0"
                 },
                 {
-                    "Trading Date": "2026-01-05",
+                    "Trading Date": "2026-01-08",
                     "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                     "Designation": "Senior Executives",
                     "Total Shares Held Trading Day": "3.5700000%",
@@ -537,7 +537,7 @@ const companyData = {
                     "Total Shares Change": "0"
                 },
                 {
-                    "Trading Date": "2026-01-05",
+                    "Trading Date": "2026-01-08",
                     "Shareholders": "خالد مالك رفيق صادق الشريف",
                     "Designation": "Board of Directors",
                     "Total Shares Held Trading Day": "0.0000400%",
@@ -547,13 +547,13 @@ const companyData = {
             ],
             [
                 {
-                    "Retal Urban Development Co.": "Price   \t\n                                       \t11.39"
+                    "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
                 },
                 {
-                    "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,635"
+                    "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
                 },
                 {
-                    "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.9"
+                    "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
                 }
             ],
             [
@@ -598,8 +598,8 @@ const companyData = {
             [
                 {
                     "Name": "Retal Urban Development Co.",
-                    "Price": "11.30",
-                    "Change %": "1.06%",
+                    "Price": "11.11",
+                    "Change %": "-1.81%",
                     "col_3": "-"
                 }
             ],
@@ -784,7 +784,7 @@ const companyData = {
             ],
             [
                 {
-                    "Trading Date": "2026-01-05",
+                    "Trading Date": "2026-01-08",
                     "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                     "Designation": "Board of Directors",
                     "Total Shares Held Trading Day": "3.5700000%",
@@ -792,7 +792,7 @@ const companyData = {
                     "Total Shares Change": "0"
                 },
                 {
-                    "Trading Date": "2026-01-05",
+                    "Trading Date": "2026-01-08",
                     "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                     "Designation": "Senior Executives",
                     "Total Shares Held Trading Day": "3.5700000%",
@@ -800,7 +800,7 @@ const companyData = {
                     "Total Shares Change": "0"
                 },
                 {
-                    "Trading Date": "2026-01-05",
+                    "Trading Date": "2026-01-08",
                     "Shareholders": "خالد مالك رفيق صادق الشريف",
                     "Designation": "Board of Directors",
                     "Total Shares Held Trading Day": "0.0000400%",
@@ -810,13 +810,13 @@ const companyData = {
             ],
             [
                 {
-                    "Retal Urban Development Co.": "Price   \t\n                                       \t11.39"
+                    "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
                 },
                 {
-                    "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,635"
+                    "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
                 },
                 {
-                    "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.9"
+                    "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
                 }
             ],
             [
@@ -861,8 +861,8 @@ const companyData = {
             [
                 {
                     "Name": "Retal Urban Development Co.",
-                    "Price": "11.30",
-                    "Change %": "1.06%",
+                    "Price": "11.11",
+                    "Change %": "-1.81%",
                     "col_3": "-"
                 }
             ],
@@ -1047,7 +1047,7 @@ const companyData = {
             ],
             [
                 {
-                    "Trading Date": "2026-01-05",
+                    "Trading Date": "2026-01-08",
                     "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                     "Designation": "Board of Directors",
                     "Total Shares Held Trading Day": "3.5700000%",
@@ -1055,7 +1055,7 @@ const companyData = {
                     "Total Shares Change": "0"
                 },
                 {
-                    "Trading Date": "2026-01-05",
+                    "Trading Date": "2026-01-08",
                     "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                     "Designation": "Senior Executives",
                     "Total Shares Held Trading Day": "3.5700000%",
@@ -1063,7 +1063,7 @@ const companyData = {
                     "Total Shares Change": "0"
                 },
                 {
-                    "Trading Date": "2026-01-05",
+                    "Trading Date": "2026-01-08",
                     "Shareholders": "خالد مالك رفيق صادق الشريف",
                     "Designation": "Board of Directors",
                     "Total Shares Held Trading Day": "0.0000400%",
@@ -1073,13 +1073,13 @@ const companyData = {
             ],
             [
                 {
-                    "Retal Urban Development Co.": "Price   \t\n                                       \t11.39"
+                    "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
                 },
                 {
-                    "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,635"
+                    "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
                 },
                 {
-                    "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.9"
+                    "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
                 }
             ],
             [
@@ -1125,8 +1125,8 @@ const companyData = {
                 [
                     {
                         "Name": "Retal Urban Development Co.",
-                        "Price": "11.30",
-                        "Change %": "1.06%",
+                        "Price": "11.11",
+                        "Change %": "-1.81%",
                         "col_3": "-"
                     }
                 ],
@@ -1311,7 +1311,7 @@ const companyData = {
                 ],
                 [
                     {
-                        "Trading Date": "2026-01-05",
+                        "Trading Date": "2026-01-08",
                         "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                         "Designation": "Board of Directors",
                         "Total Shares Held Trading Day": "3.5700000%",
@@ -1319,7 +1319,7 @@ const companyData = {
                         "Total Shares Change": "0"
                     },
                     {
-                        "Trading Date": "2026-01-05",
+                        "Trading Date": "2026-01-08",
                         "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                         "Designation": "Senior Executives",
                         "Total Shares Held Trading Day": "3.5700000%",
@@ -1327,7 +1327,7 @@ const companyData = {
                         "Total Shares Change": "0"
                     },
                     {
-                        "Trading Date": "2026-01-05",
+                        "Trading Date": "2026-01-08",
                         "Shareholders": "خالد مالك رفيق صادق الشريف",
                         "Designation": "Board of Directors",
                         "Total Shares Held Trading Day": "0.0000400%",
@@ -1337,13 +1337,13 @@ const companyData = {
                 ],
                 [
                     {
-                        "Retal Urban Development Co.": "Price   \t\n                                       \t11.39"
+                        "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
                     },
                     {
-                        "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,635"
+                        "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
                     },
                     {
-                        "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.9"
+                        "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
                     }
                 ],
                 [
@@ -1398,12 +1398,12 @@ const companyData = {
             }
         },
         "Financials": {
-            "Annually": [
+            "Annually_Short": [
                 [
                     {
                         "Name": "Retal Urban Development Co.",
-                        "Price": "11.30",
-                        "Change %": "1.06%",
+                        "Price": "11.11",
+                        "Change %": "-1.81%",
                         "col_3": "-"
                     }
                 ],
@@ -1588,7 +1588,7 @@ const companyData = {
                 ],
                 [
                     {
-                        "Trading Date": "2026-01-05",
+                        "Trading Date": "2026-01-08",
                         "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                         "Designation": "Board of Directors",
                         "Total Shares Held Trading Day": "3.5700000%",
@@ -1596,7 +1596,7 @@ const companyData = {
                         "Total Shares Change": "0"
                     },
                     {
-                        "Trading Date": "2026-01-05",
+                        "Trading Date": "2026-01-08",
                         "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                         "Designation": "Senior Executives",
                         "Total Shares Held Trading Day": "3.5700000%",
@@ -1604,7 +1604,7 @@ const companyData = {
                         "Total Shares Change": "0"
                     },
                     {
-                        "Trading Date": "2026-01-05",
+                        "Trading Date": "2026-01-08",
                         "Shareholders": "خالد مالك رفيق صادق الشريف",
                         "Designation": "Board of Directors",
                         "Total Shares Held Trading Day": "0.0000400%",
@@ -1614,13 +1614,13 @@ const companyData = {
                 ],
                 [
                     {
-                        "Retal Urban Development Co.": "Price   \t\n                                       \t11.39"
+                        "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
                     },
                     {
-                        "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,635"
+                        "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
                     },
                     {
-                        "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.9"
+                        "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
                     }
                 ],
                 [
@@ -1661,12 +1661,12 @@ const companyData = {
                     }
                 ]
             ],
-            "Quarterly": [
+            "Annually_Balance_Sheet": [
                 [
                     {
                         "Name": "Retal Urban Development Co.",
-                        "Price": "11.30",
-                        "Change %": "1.06%",
+                        "Price": "11.11",
+                        "Change %": "-1.81%",
                         "col_3": "-"
                     }
                 ],
@@ -1709,149 +1709,114 @@ const companyData = {
                 ],
                 [
                     {
+                        "Balance Sheet": "Current Assets",
+                        "2022-12-31": "1,324,458",
+                        "2021-12-31": "1,156,218",
+                        "2020-12-31": "585,401",
+                        "2019-12-31": "315,594"
+                    },
+                    {
+                        "Balance Sheet": "Inventory",
+                        "2022-12-31": "15,962",
+                        "2021-12-31": "12,509",
+                        "2020-12-31": "22,254",
+                        "2019-12-31": "4,367"
+                    },
+                    {
+                        "Balance Sheet": "Investments",
+                        "2022-12-31": "484,200",
+                        "2021-12-31": "497,318",
+                        "2020-12-31": "450,448",
+                        "2019-12-31": "323,258"
+                    },
+                    {
+                        "Balance Sheet": "Fixed Assets",
+                        "2022-12-31": "124,032",
+                        "2021-12-31": "96,440",
+                        "2020-12-31": "90,212",
+                        "2019-12-31": "4,912"
+                    },
+                    {
+                        "Balance Sheet": "Other Assets",
+                        "2022-12-31": "480,179",
+                        "2021-12-31": "76,465",
+                        "2020-12-31": "21,284",
+                        "2019-12-31": "27,626"
+                    },
+                    {
                         "Balance Sheet": "Total Assets",
-                        "2025-09-30": "5,491,170",
-                        "2025-06-30": "5,184,971",
-                        "2025-03-31": "4,738,398",
-                        "2024-09-30": "3,975,998"
+                        "2022-12-31": "2,428,831",
+                        "2021-12-31": "1,838,950",
+                        "2020-12-31": "1,169,599",
+                        "2019-12-31": "675,757"
                     },
                     {
-                        "Balance Sheet": "Total Liabilities",
-                        "2025-09-30": "4,568,704",
-                        "2025-06-30": "4,263,408",
-                        "2025-03-31": "3,886,099",
-                        "2024-09-30": "3,209,810"
+                        "Balance Sheet": "Current Liabilities",
+                        "2022-12-31": "1,200,477",
+                        "2021-12-31": "1,033,985",
+                        "2020-12-31": "573,592",
+                        "2019-12-31": "307,558"
                     },
                     {
-                        "Balance Sheet": "Total Shareholders Equity (After Deducting the Minority Equity)",
-                        "2025-09-30": "911,082",
-                        "2025-06-30": "910,374",
-                        "2025-03-31": "847,103",
-                        "2024-09-30": "754,935"
+                        "Balance Sheet": "Non-Current Liabilities",
+                        "2022-12-31": "493,944",
+                        "2021-12-31": "236,194",
+                        "2020-12-31": "77,221",
+                        "2019-12-31": "22,032"
                     },
                     {
-                        "Balance Sheet": "Total Liabilities and Shareholders Equity",
-                        "2025-09-30": "5,491,170",
-                        "2025-06-30": "5,184,971",
-                        "2025-03-31": "4,738,398",
-                        "2024-09-30": "3,975,998"
+                        "Balance Sheet": "Other Liabilities",
+                        "2022-12-31": "-",
+                        "2021-12-31": "-",
+                        "2020-12-31": "-",
+                        "2019-12-31": "-"
                     },
                     {
-                        "Balance Sheet": "Statement of Income",
-                        "2025-09-30": "2025-09-30",
-                        "2025-06-30": "2025-06-30",
-                        "2025-03-31": "2025-03-31",
-                        "2024-09-30": "2024-09-30"
+                        "Balance Sheet": "Shareholders Equity",
+                        "2022-12-31": "734,410",
+                        "2021-12-31": "568,906",
+                        "2020-12-31": "518,786",
+                        "2019-12-31": "346,167"
                     },
                     {
-                        "Balance Sheet": "Total Revenue (Sales/Operating)",
-                        "2025-09-30": "676,434",
-                        "2025-06-30": "488,438",
-                        "2025-03-31": "567,072",
-                        "2024-09-30": "510,429"
+                        "Balance Sheet": "Total Liabilities and Shareholder Equity",
+                        "2022-12-31": "2,428,831",
+                        "2021-12-31": "1,838,950",
+                        "2020-12-31": "1,169,599",
+                        "2019-12-31": "675,757"
                     },
                     {
-                        "Balance Sheet": "Net Profit (Loss) before Zakat and Tax",
-                        "2025-09-30": "72,196",
-                        "2025-06-30": "70,178",
-                        "2025-03-31": "78,773",
-                        "2024-09-30": "47,641"
-                    },
-                    {
-                        "Balance Sheet": "Zakat and Income Tax",
-                        "2025-09-30": "-6,503",
-                        "2025-06-30": "1,940",
-                        "2025-03-31": "-4,958",
-                        "2024-09-30": "-3,310"
-                    },
-                    {
-                        "Balance Sheet": "Net Profit (Loss) after Zakat and Tax",
-                        "2025-09-30": "65,693",
-                        "2025-06-30": "72,118",
-                        "2025-03-31": "73,815",
-                        "2024-09-30": "40,028"
-                    },
-                    {
-                        "Balance Sheet": "Total Comprehensive Income",
-                        "2025-09-30": "65,693",
-                        "2025-06-30": "72,118",
-                        "2025-03-31": "73,815",
-                        "2024-09-30": "40,028"
-                    },
-                    {
-                        "Balance Sheet": "Profit (Loss) per Share",
-                        "2025-09-30": "0.11",
-                        "2025-06-30": "0.13",
-                        "2025-03-31": "0.14",
-                        "2024-09-30": "0.08"
-                    },
-                    {
-                        "Balance Sheet": "Cash Flows",
-                        "2025-09-30": "2025-09-30",
-                        "2025-06-30": "2025-06-30",
-                        "2025-03-31": "2025-03-31",
-                        "2024-09-30": "2024-09-30"
-                    },
-                    {
-                        "Balance Sheet": "Net Cash From Operating Activities",
-                        "2025-09-30": "194,505",
-                        "2025-06-30": "191,290",
-                        "2025-03-31": "494,991",
-                        "2024-09-30": "290,057"
-                    },
-                    {
-                        "Balance Sheet": "Net Cash From Investing Activities",
-                        "2025-09-30": "20,181",
-                        "2025-06-30": "-26,525",
-                        "2025-03-31": "32,178",
-                        "2024-09-30": "41,250"
-                    },
-                    {
-                        "Balance Sheet": "Net Cash From Financing Activities",
-                        "2025-09-30": "-276,246",
-                        "2025-06-30": "-157,147",
-                        "2025-03-31": "-135,905",
-                        "2024-09-30": "-124,455"
-                    },
-                    {
-                        "Balance Sheet": "Cash and Cash Equivalents, Beginning of the Period",
-                        "2025-09-30": "34,112",
-                        "2025-06-30": "34,112",
-                        "2025-03-31": "34,112",
-                        "2024-09-30": "54,734"
-                    },
-                    {
-                        "Balance Sheet": "Cash and Cash Equivalents, End of the Period",
-                        "2025-09-30": "23,137",
-                        "2025-06-30": "17,729",
-                        "2025-03-31": "139,390",
-                        "2024-09-30": "30,301"
+                        "Balance Sheet": "Minority Interests",
+                        "2022-12-31": "-",
+                        "2021-12-31": "-135",
+                        "2020-12-31": "-",
+                        "2019-12-31": "-"
                     },
                     {
                         "Balance Sheet": "All Figures in",
-                        "2025-09-30": "Thousands",
-                        "2025-06-30": "Thousands",
-                        "2025-03-31": "Thousands",
-                        "2024-09-30": "Thousands"
+                        "2022-12-31": "Thousands",
+                        "2021-12-31": "Thousands",
+                        "2020-12-31": "Thousands",
+                        "2019-12-31": "Thousands"
                     },
                     {
                         "Balance Sheet": "All Currency In",
-                        "2025-09-30": "^",
-                        "2025-06-30": "^",
-                        "2025-03-31": "^",
-                        "2024-09-30": "^"
+                        "2022-12-31": "^",
+                        "2021-12-31": "^",
+                        "2020-12-31": "^",
+                        "2019-12-31": "^"
                     },
                     {
                         "Balance Sheet": "Last Update Date",
-                        "2025-09-30": "2025-11-11",
-                        "2025-06-30": "2025-08-06",
-                        "2025-03-31": "2025-05-18",
-                        "2024-09-30": "2024-10-30"
+                        "2022-12-31": "2023-03-06",
+                        "2021-12-31": "2022-07-19",
+                        "2020-12-31": "2022-07-14",
+                        "2019-12-31": "2022-07-18"
                     }
                 ],
                 [
                     {
-                        "Trading Date": "2026-01-05",
+                        "Trading Date": "2026-01-08",
                         "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                         "Designation": "Board of Directors",
                         "Total Shares Held Trading Day": "3.5700000%",
@@ -1859,7 +1824,7 @@ const companyData = {
                         "Total Shares Change": "0"
                     },
                     {
-                        "Trading Date": "2026-01-05",
+                        "Trading Date": "2026-01-08",
                         "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
                         "Designation": "Senior Executives",
                         "Total Shares Held Trading Day": "3.5700000%",
@@ -1867,7 +1832,7 @@ const companyData = {
                         "Total Shares Change": "0"
                     },
                     {
-                        "Trading Date": "2026-01-05",
+                        "Trading Date": "2026-01-08",
                         "Shareholders": "خالد مالك رفيق صادق الشريف",
                         "Designation": "Board of Directors",
                         "Total Shares Held Trading Day": "0.0000400%",
@@ -1877,13 +1842,1472 @@ const companyData = {
                 ],
                 [
                     {
-                        "Retal Urban Development Co.": "Price   \t\n                                       \t11.39"
+                        "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
                     },
                     {
-                        "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,635"
+                        "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
                     },
                     {
-                        "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.9"
+                        "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
+                    }
+                ],
+                [
+                    {
+                        "Name Of Subsidiary": "Building and Construction Company (BCC)",
+                        "Percentage Of Property": "80.00%",
+                        "Main Business": "Construction",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Nesaj Urban Development Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Construction and Real Estate Activities",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Adara Real Estate",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Real estate activities",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Tadbeir Limited Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Facilities managment",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Tadbeir Environmental Services Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Water, sanitation, waste management and treatment",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    }
+                ]
+            ],
+            "Annually_Statement_Of_Income": [
+                [
+                    {
+                        "Name": "Retal Urban Development Co.",
+                        "Price": "11.11",
+                        "Change %": "-1.81%",
+                        "col_3": "-"
+                    }
+                ],
+                [
+                    {
+                        "Announced Date": "04/08/2025",
+                        "Eligibility Date": "29/09/2025",
+                        "Distribution Date": "09/10/2025",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.11"
+                    },
+                    {
+                        "Announced Date": "02/03/2025",
+                        "Eligibility Date": "04/05/2025",
+                        "Distribution Date": "15/05/2025",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.11"
+                    },
+                    {
+                        "Announced Date": "31/07/2024",
+                        "Eligibility Date": "29/09/2024",
+                        "Distribution Date": "10/10/2024",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    },
+                    {
+                        "Announced Date": "28/02/2024",
+                        "Eligibility Date": "05/05/2024",
+                        "Distribution Date": "16/05/2024",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    },
+                    {
+                        "Announced Date": "01/08/2023",
+                        "Eligibility Date": "28/09/2023",
+                        "Distribution Date": "10/10/2023",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    }
+                ],
+                [
+                    {
+                        "Statement of Income": "Sales",
+                        "2022-12-31": "1,106,830",
+                        "2021-12-31": "1,085,321",
+                        "2020-12-31": "587,451",
+                        "2019-12-31": "456,536"
+                    },
+                    {
+                        "Statement of Income": "Sales Cost",
+                        "2022-12-31": "809,667",
+                        "2021-12-31": "839,860",
+                        "2020-12-31": "463,142",
+                        "2019-12-31": "379,134"
+                    },
+                    {
+                        "Statement of Income": "Total Income",
+                        "2022-12-31": "297,163",
+                        "2021-12-31": "245,461",
+                        "2020-12-31": "124,309",
+                        "2019-12-31": "77,402"
+                    },
+                    {
+                        "Statement of Income": "Other Revenues",
+                        "2022-12-31": "53,525",
+                        "2021-12-31": "23,438",
+                        "2020-12-31": "15,093",
+                        "2019-12-31": "24,477"
+                    },
+                    {
+                        "Statement of Income": "Total Revenues",
+                        "2022-12-31": "350,688",
+                        "2021-12-31": "268,899",
+                        "2020-12-31": "139,402",
+                        "2019-12-31": "101,879"
+                    },
+                    {
+                        "Statement of Income": "Admin and Marketing Expenses",
+                        "2022-12-31": "70,745",
+                        "2021-12-31": "51,263",
+                        "2020-12-31": "27,617",
+                        "2019-12-31": "24,074"
+                    },
+                    {
+                        "Statement of Income": "Depreciation",
+                        "2022-12-31": "8,179",
+                        "2021-12-31": "7,859",
+                        "2020-12-31": "6,517",
+                        "2019-12-31": "5,458"
+                    },
+                    {
+                        "Statement of Income": "Other Expenses",
+                        "2022-12-31": "15,121",
+                        "2021-12-31": "7,979",
+                        "2020-12-31": "1,924",
+                        "2019-12-31": "8,024"
+                    },
+                    {
+                        "Statement of Income": "Total Expenses",
+                        "2022-12-31": "94,045",
+                        "2021-12-31": "67,101",
+                        "2020-12-31": "36,058",
+                        "2019-12-31": "37,556"
+                    },
+                    {
+                        "Statement of Income": "Net Income Before Zakat",
+                        "2022-12-31": "256,643",
+                        "2021-12-31": "201,798",
+                        "2020-12-31": "103,344",
+                        "2019-12-31": "64,323"
+                    },
+                    {
+                        "Statement of Income": "Zakat",
+                        "2022-12-31": "10,899",
+                        "2021-12-31": "8,463",
+                        "2020-12-31": "4,711",
+                        "2019-12-31": "4,630"
+                    },
+                    {
+                        "Statement of Income": "Net Income",
+                        "2022-12-31": "245,744",
+                        "2021-12-31": "193,335",
+                        "2020-12-31": "98,633",
+                        "2019-12-31": "59,693"
+                    },
+                    {
+                        "Statement of Income": "Balance First Period",
+                        "2022-12-31": "134,060",
+                        "2021-12-31": "127,462",
+                        "2020-12-31": "88,692",
+                        "2019-12-31": "38,775"
+                    },
+                    {
+                        "Statement of Income": "Reserves",
+                        "2022-12-31": "24,574",
+                        "2021-12-31": "19,372",
+                        "2020-12-31": "9,863",
+                        "2019-12-31": "5,969"
+                    },
+                    {
+                        "Statement of Income": "Cash Dividends",
+                        "2022-12-31": "80,000",
+                        "2021-12-31": "147,750",
+                        "2020-12-31": "50,000",
+                        "2019-12-31": "-"
+                    },
+                    {
+                        "Statement of Income": "Other Distributions",
+                        "2022-12-31": "385",
+                        "2021-12-31": "20,000",
+                        "2020-12-31": "-",
+                        "2019-12-31": "3,806"
+                    },
+                    {
+                        "Statement of Income": "Balance End Period",
+                        "2022-12-31": "274,844",
+                        "2021-12-31": "134,060",
+                        "2020-12-31": "127,462",
+                        "2019-12-31": "88,692"
+                    },
+                    {
+                        "Statement of Income": "All Figures in",
+                        "2022-12-31": "Thousands",
+                        "2021-12-31": "Thousands",
+                        "2020-12-31": "Thousands",
+                        "2019-12-31": "Thousands"
+                    },
+                    {
+                        "Statement of Income": "All Currency In",
+                        "2022-12-31": "^",
+                        "2021-12-31": "^",
+                        "2020-12-31": "^",
+                        "2019-12-31": "^"
+                    },
+                    {
+                        "Statement of Income": "Last Update Date",
+                        "2022-12-31": "2023-03-06",
+                        "2021-12-31": "2022-07-19",
+                        "2020-12-31": "2022-07-14",
+                        "2019-12-31": "2022-07-18"
+                    }
+                ],
+                [
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
+                        "Designation": "Board of Directors",
+                        "Total Shares Held Trading Day": "3.5700000%",
+                        "Total Shares Held Prev Trading Day": "3.5700000%",
+                        "Total Shares Change": "0"
+                    },
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
+                        "Designation": "Senior Executives",
+                        "Total Shares Held Trading Day": "3.5700000%",
+                        "Total Shares Held Prev Trading Day": "3.5700000%",
+                        "Total Shares Change": "0"
+                    },
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "خالد مالك رفيق صادق الشريف",
+                        "Designation": "Board of Directors",
+                        "Total Shares Held Trading Day": "0.0000400%",
+                        "Total Shares Held Prev Trading Day": "0.0000400%",
+                        "Total Shares Change": "0"
+                    }
+                ],
+                [
+                    {
+                        "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
+                    },
+                    {
+                        "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
+                    },
+                    {
+                        "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
+                    }
+                ],
+                [
+                    {
+                        "Name Of Subsidiary": "Building and Construction Company (BCC)",
+                        "Percentage Of Property": "80.00%",
+                        "Main Business": "Construction",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Nesaj Urban Development Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Construction and Real Estate Activities",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Adara Real Estate",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Real estate activities",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Tadbeir Limited Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Facilities managment",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Tadbeir Environmental Services Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Water, sanitation, waste management and treatment",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    }
+                ]
+            ],
+            "Annually_Cash_Flows": [
+                [
+                    {
+                        "Name": "Retal Urban Development Co.",
+                        "Price": "11.11",
+                        "Change %": "-1.81%",
+                        "col_3": "-"
+                    }
+                ],
+                [
+                    {
+                        "Announced Date": "04/08/2025",
+                        "Eligibility Date": "29/09/2025",
+                        "Distribution Date": "09/10/2025",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.11"
+                    },
+                    {
+                        "Announced Date": "02/03/2025",
+                        "Eligibility Date": "04/05/2025",
+                        "Distribution Date": "15/05/2025",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.11"
+                    },
+                    {
+                        "Announced Date": "31/07/2024",
+                        "Eligibility Date": "29/09/2024",
+                        "Distribution Date": "10/10/2024",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    },
+                    {
+                        "Announced Date": "28/02/2024",
+                        "Eligibility Date": "05/05/2024",
+                        "Distribution Date": "16/05/2024",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    },
+                    {
+                        "Announced Date": "01/08/2023",
+                        "Eligibility Date": "28/09/2023",
+                        "Distribution Date": "10/10/2023",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    }
+                ],
+                [
+                    {
+                        "Cash Flows": "Net Income",
+                        "2022-12-31": "256,642",
+                        "2021-12-31": "201,797",
+                        "2020-12-31": "103,344",
+                        "2019-12-31": "64,323"
+                    },
+                    {
+                        "Cash Flows": "Depreciation",
+                        "2022-12-31": "13,862",
+                        "2021-12-31": "14,315",
+                        "2020-12-31": "12,432",
+                        "2019-12-31": "9,428"
+                    },
+                    {
+                        "Cash Flows": "Accounts Receivable",
+                        "2022-12-31": "23,960",
+                        "2021-12-31": "-193,619",
+                        "2020-12-31": "10,591",
+                        "2019-12-31": "-60,703"
+                    },
+                    {
+                        "Cash Flows": "Inventory",
+                        "2022-12-31": "-3,453",
+                        "2021-12-31": "9,745",
+                        "2020-12-31": "-17,887",
+                        "2019-12-31": "-912"
+                    },
+                    {
+                        "Cash Flows": "Prepaid Expenses",
+                        "2022-12-31": "48,592",
+                        "2021-12-31": "-67,635",
+                        "2020-12-31": "-64,806",
+                        "2019-12-31": "-6,176"
+                    },
+                    {
+                        "Cash Flows": "Accounts Payable",
+                        "2022-12-31": "212,391",
+                        "2021-12-31": "204,903",
+                        "2020-12-31": "97,301",
+                        "2019-12-31": "54,081"
+                    },
+                    {
+                        "Cash Flows": "Other Changes in Oper. Activity",
+                        "2022-12-31": "-674,809",
+                        "2021-12-31": "65,129",
+                        "2020-12-31": "-177,548",
+                        "2019-12-31": "-23,891"
+                    },
+                    {
+                        "Cash Flows": "Purchases of Fixed Assets",
+                        "2022-12-31": "-43,925",
+                        "2021-12-31": "-10,570",
+                        "2020-12-31": "-27,978",
+                        "2019-12-31": "-2,711"
+                    },
+                    {
+                        "Cash Flows": "Other Changes in Investing Act.",
+                        "2022-12-31": "126,814",
+                        "2021-12-31": "-2,022",
+                        "2020-12-31": "-143,168",
+                        "2019-12-31": "23,097"
+                    },
+                    {
+                        "Cash Flows": "Increase in Debts",
+                        "2022-12-31": "115,053",
+                        "2021-12-31": "500,330",
+                        "2020-12-31": "198,400",
+                        "2019-12-31": "-"
+                    },
+                    {
+                        "Cash Flows": "Other Changes in Financing Act.",
+                        "2022-12-31": "-83,405",
+                        "2021-12-31": "-379,376",
+                        "2020-12-31": "15,182",
+                        "2019-12-31": "-131,954"
+                    },
+                    {
+                        "Cash Flows": "Cash at Begining of Period",
+                        "2022-12-31": "32,414",
+                        "2021-12-31": "64,981",
+                        "2020-12-31": "4,112",
+                        "2019-12-31": "85,055"
+                    },
+                    {
+                        "Cash Flows": "Cash at End of Period",
+                        "2022-12-31": "24,136",
+                        "2021-12-31": "407,978",
+                        "2020-12-31": "9,975",
+                        "2019-12-31": "9,637"
+                    },
+                    {
+                        "Cash Flows": "All Figures in",
+                        "2022-12-31": "Thousands",
+                        "2021-12-31": "Thousands",
+                        "2020-12-31": "Thousands",
+                        "2019-12-31": "Thousands"
+                    },
+                    {
+                        "Cash Flows": "All Currency In",
+                        "2022-12-31": "^",
+                        "2021-12-31": "^",
+                        "2020-12-31": "^",
+                        "2019-12-31": "^"
+                    },
+                    {
+                        "Cash Flows": "Last Update Date",
+                        "2022-12-31": "2023-03-06",
+                        "2021-12-31": "2022-07-19",
+                        "2020-12-31": "2022-07-14",
+                        "2019-12-31": "2022-07-18"
+                    }
+                ],
+                [
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
+                        "Designation": "Board of Directors",
+                        "Total Shares Held Trading Day": "3.5700000%",
+                        "Total Shares Held Prev Trading Day": "3.5700000%",
+                        "Total Shares Change": "0"
+                    },
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
+                        "Designation": "Senior Executives",
+                        "Total Shares Held Trading Day": "3.5700000%",
+                        "Total Shares Held Prev Trading Day": "3.5700000%",
+                        "Total Shares Change": "0"
+                    },
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "خالد مالك رفيق صادق الشريف",
+                        "Designation": "Board of Directors",
+                        "Total Shares Held Trading Day": "0.0000400%",
+                        "Total Shares Held Prev Trading Day": "0.0000400%",
+                        "Total Shares Change": "0"
+                    }
+                ],
+                [
+                    {
+                        "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
+                    },
+                    {
+                        "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
+                    },
+                    {
+                        "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
+                    }
+                ],
+                [
+                    {
+                        "Name Of Subsidiary": "Building and Construction Company (BCC)",
+                        "Percentage Of Property": "80.00%",
+                        "Main Business": "Construction",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Nesaj Urban Development Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Construction and Real Estate Activities",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Adara Real Estate",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Real estate activities",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Tadbeir Limited Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Facilities managment",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Tadbeir Environmental Services Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Water, sanitation, waste management and treatment",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    }
+                ]
+            ],
+            "Quarterly_Short": [
+                [
+                    {
+                        "Name": "Retal Urban Development Co.",
+                        "Price": "11.11",
+                        "Change %": "-1.81%",
+                        "col_3": "-"
+                    }
+                ],
+                [
+                    {
+                        "Announced Date": "04/08/2025",
+                        "Eligibility Date": "29/09/2025",
+                        "Distribution Date": "09/10/2025",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.11"
+                    },
+                    {
+                        "Announced Date": "02/03/2025",
+                        "Eligibility Date": "04/05/2025",
+                        "Distribution Date": "15/05/2025",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.11"
+                    },
+                    {
+                        "Announced Date": "31/07/2024",
+                        "Eligibility Date": "29/09/2024",
+                        "Distribution Date": "10/10/2024",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    },
+                    {
+                        "Announced Date": "28/02/2024",
+                        "Eligibility Date": "05/05/2024",
+                        "Distribution Date": "16/05/2024",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    },
+                    {
+                        "Announced Date": "01/08/2023",
+                        "Eligibility Date": "28/09/2023",
+                        "Distribution Date": "10/10/2023",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    }
+                ],
+                [
+                    {
+                        "Cash Flows": "Net Income",
+                        "2023-06-30": "118,246",
+                        "2023-03-31": "44,702",
+                        "2022-09-30": "191,553",
+                        "2022-06-30": "98,190"
+                    },
+                    {
+                        "Cash Flows": "Depreciation",
+                        "2023-06-30": "4,489",
+                        "2023-03-31": "2,207",
+                        "2022-09-30": "11,161",
+                        "2022-06-30": "7,345"
+                    },
+                    {
+                        "Cash Flows": "Accounts Receivable",
+                        "2023-06-30": "82,908",
+                        "2023-03-31": "78,250",
+                        "2022-09-30": "157,274",
+                        "2022-06-30": "171,678"
+                    },
+                    {
+                        "Cash Flows": "Inventory",
+                        "2023-06-30": "-193",
+                        "2023-03-31": "1,903",
+                        "2022-09-30": "-248",
+                        "2022-06-30": "-632"
+                    },
+                    {
+                        "Cash Flows": "Prepaid Expenses",
+                        "2023-06-30": "-33,802",
+                        "2023-03-31": "-5,287",
+                        "2022-09-30": "45,570",
+                        "2022-06-30": "-2,369"
+                    },
+                    {
+                        "Cash Flows": "Accounts Payable",
+                        "2023-06-30": "-84,354",
+                        "2023-03-31": "-66,477",
+                        "2022-09-30": "8,466",
+                        "2022-06-30": "-21,578"
+                    },
+                    {
+                        "Cash Flows": "Other Changes in Oper. Activity",
+                        "2023-06-30": "-264,437",
+                        "2023-03-31": "-174,842",
+                        "2022-09-30": "-269,365",
+                        "2022-06-30": "-390,258"
+                    },
+                    {
+                        "Cash Flows": "Purchases of Fixed Assets",
+                        "2023-06-30": "-18,904",
+                        "2023-03-31": "-7,043",
+                        "2022-09-30": "-17,222",
+                        "2022-06-30": "-9,892"
+                    },
+                    {
+                        "Cash Flows": "Other Changes in Investing Act.",
+                        "2023-06-30": "-88,957",
+                        "2023-03-31": "53,010",
+                        "2022-09-30": "10,120",
+                        "2022-06-30": "61,465"
+                    },
+                    {
+                        "Cash Flows": "Increase in Debts",
+                        "2023-06-30": "399,775",
+                        "2023-03-31": "560,132",
+                        "2022-09-30": "330,491",
+                        "2022-06-30": "91,639"
+                    },
+                    {
+                        "Cash Flows": "Other Changes in Financing Act.",
+                        "2023-06-30": "-120,000",
+                        "2023-03-31": "-401,961",
+                        "2022-09-30": "-257,270",
+                        "2022-06-30": "-2,455"
+                    },
+                    {
+                        "Cash Flows": "Cash at Begining of Period",
+                        "2023-06-30": "24,137",
+                        "2023-03-31": "24,137",
+                        "2022-09-30": "32,414",
+                        "2022-06-30": "32,414"
+                    },
+                    {
+                        "Cash Flows": "Cash at End of Period",
+                        "2023-06-30": "18,908",
+                        "2023-03-31": "108,731",
+                        "2022-09-30": "242,944",
+                        "2022-06-30": "35,547"
+                    },
+                    {
+                        "Cash Flows": "All Figures in",
+                        "2023-06-30": "Thousands",
+                        "2023-03-31": "Thousands",
+                        "2022-09-30": "Thousands",
+                        "2022-06-30": "Thousands"
+                    },
+                    {
+                        "Cash Flows": "All Currency In",
+                        "2023-06-30": "^",
+                        "2023-03-31": "^",
+                        "2022-09-30": "^",
+                        "2022-06-30": "^"
+                    },
+                    {
+                        "Cash Flows": "Last Update Date",
+                        "2023-06-30": "2023-08-03",
+                        "2023-03-31": "2023-05-21",
+                        "2022-09-30": "2022-11-01",
+                        "2022-06-30": "2022-08-14"
+                    }
+                ],
+                [
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
+                        "Designation": "Board of Directors",
+                        "Total Shares Held Trading Day": "3.5700000%",
+                        "Total Shares Held Prev Trading Day": "3.5700000%",
+                        "Total Shares Change": "0"
+                    },
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
+                        "Designation": "Senior Executives",
+                        "Total Shares Held Trading Day": "3.5700000%",
+                        "Total Shares Held Prev Trading Day": "3.5700000%",
+                        "Total Shares Change": "0"
+                    },
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "خالد مالك رفيق صادق الشريف",
+                        "Designation": "Board of Directors",
+                        "Total Shares Held Trading Day": "0.0000400%",
+                        "Total Shares Held Prev Trading Day": "0.0000400%",
+                        "Total Shares Change": "0"
+                    }
+                ],
+                [
+                    {
+                        "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
+                    },
+                    {
+                        "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
+                    },
+                    {
+                        "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
+                    }
+                ],
+                [
+                    {
+                        "Name Of Subsidiary": "Building and Construction Company (BCC)",
+                        "Percentage Of Property": "80.00%",
+                        "Main Business": "Construction",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Nesaj Urban Development Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Construction and Real Estate Activities",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Adara Real Estate",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Real estate activities",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Tadbeir Limited Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Facilities managment",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Tadbeir Environmental Services Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Water, sanitation, waste management and treatment",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    }
+                ]
+            ],
+            "Quarterly_Balance_Sheet": [
+                [
+                    {
+                        "Name": "Retal Urban Development Co.",
+                        "Price": "11.11",
+                        "Change %": "-1.81%",
+                        "col_3": "-"
+                    }
+                ],
+                [
+                    {
+                        "Announced Date": "04/08/2025",
+                        "Eligibility Date": "29/09/2025",
+                        "Distribution Date": "09/10/2025",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.11"
+                    },
+                    {
+                        "Announced Date": "02/03/2025",
+                        "Eligibility Date": "04/05/2025",
+                        "Distribution Date": "15/05/2025",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.11"
+                    },
+                    {
+                        "Announced Date": "31/07/2024",
+                        "Eligibility Date": "29/09/2024",
+                        "Distribution Date": "10/10/2024",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    },
+                    {
+                        "Announced Date": "28/02/2024",
+                        "Eligibility Date": "05/05/2024",
+                        "Distribution Date": "16/05/2024",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    },
+                    {
+                        "Announced Date": "01/08/2023",
+                        "Eligibility Date": "28/09/2023",
+                        "Distribution Date": "10/10/2023",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    }
+                ],
+                [
+                    {
+                        "Balance Sheet": "Current Assets",
+                        "2022-12-31": "1,324,458",
+                        "2021-12-31": "1,156,218",
+                        "2020-12-31": "585,401",
+                        "2019-12-31": "315,594"
+                    },
+                    {
+                        "Balance Sheet": "Inventory",
+                        "2022-12-31": "15,962",
+                        "2021-12-31": "12,509",
+                        "2020-12-31": "22,254",
+                        "2019-12-31": "4,367"
+                    },
+                    {
+                        "Balance Sheet": "Investments",
+                        "2022-12-31": "484,200",
+                        "2021-12-31": "497,318",
+                        "2020-12-31": "450,448",
+                        "2019-12-31": "323,258"
+                    },
+                    {
+                        "Balance Sheet": "Fixed Assets",
+                        "2022-12-31": "124,032",
+                        "2021-12-31": "96,440",
+                        "2020-12-31": "90,212",
+                        "2019-12-31": "4,912"
+                    },
+                    {
+                        "Balance Sheet": "Other Assets",
+                        "2022-12-31": "480,179",
+                        "2021-12-31": "76,465",
+                        "2020-12-31": "21,284",
+                        "2019-12-31": "27,626"
+                    },
+                    {
+                        "Balance Sheet": "Total Assets",
+                        "2022-12-31": "2,428,831",
+                        "2021-12-31": "1,838,950",
+                        "2020-12-31": "1,169,599",
+                        "2019-12-31": "675,757"
+                    },
+                    {
+                        "Balance Sheet": "Current Liabilities",
+                        "2022-12-31": "1,200,477",
+                        "2021-12-31": "1,033,985",
+                        "2020-12-31": "573,592",
+                        "2019-12-31": "307,558"
+                    },
+                    {
+                        "Balance Sheet": "Non-Current Liabilities",
+                        "2022-12-31": "493,944",
+                        "2021-12-31": "236,194",
+                        "2020-12-31": "77,221",
+                        "2019-12-31": "22,032"
+                    },
+                    {
+                        "Balance Sheet": "Other Liabilities",
+                        "2022-12-31": "-",
+                        "2021-12-31": "-",
+                        "2020-12-31": "-",
+                        "2019-12-31": "-"
+                    },
+                    {
+                        "Balance Sheet": "Shareholders Equity",
+                        "2022-12-31": "734,410",
+                        "2021-12-31": "568,906",
+                        "2020-12-31": "518,786",
+                        "2019-12-31": "346,167"
+                    },
+                    {
+                        "Balance Sheet": "Total Liabilities and Shareholder Equity",
+                        "2022-12-31": "2,428,831",
+                        "2021-12-31": "1,838,950",
+                        "2020-12-31": "1,169,599",
+                        "2019-12-31": "675,757"
+                    },
+                    {
+                        "Balance Sheet": "Minority Interests",
+                        "2022-12-31": "-",
+                        "2021-12-31": "-135",
+                        "2020-12-31": "-",
+                        "2019-12-31": "-"
+                    },
+                    {
+                        "Balance Sheet": "All Figures in",
+                        "2022-12-31": "Thousands",
+                        "2021-12-31": "Thousands",
+                        "2020-12-31": "Thousands",
+                        "2019-12-31": "Thousands"
+                    },
+                    {
+                        "Balance Sheet": "All Currency In",
+                        "2022-12-31": "^",
+                        "2021-12-31": "^",
+                        "2020-12-31": "^",
+                        "2019-12-31": "^"
+                    },
+                    {
+                        "Balance Sheet": "Last Update Date",
+                        "2022-12-31": "2023-03-06",
+                        "2021-12-31": "2022-07-19",
+                        "2020-12-31": "2022-07-14",
+                        "2019-12-31": "2022-07-18"
+                    }
+                ],
+                [
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
+                        "Designation": "Board of Directors",
+                        "Total Shares Held Trading Day": "3.5700000%",
+                        "Total Shares Held Prev Trading Day": "3.5700000%",
+                        "Total Shares Change": "0"
+                    },
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
+                        "Designation": "Senior Executives",
+                        "Total Shares Held Trading Day": "3.5700000%",
+                        "Total Shares Held Prev Trading Day": "3.5700000%",
+                        "Total Shares Change": "0"
+                    },
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "خالد مالك رفيق صادق الشريف",
+                        "Designation": "Board of Directors",
+                        "Total Shares Held Trading Day": "0.0000400%",
+                        "Total Shares Held Prev Trading Day": "0.0000400%",
+                        "Total Shares Change": "0"
+                    }
+                ],
+                [
+                    {
+                        "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
+                    },
+                    {
+                        "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
+                    },
+                    {
+                        "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
+                    }
+                ],
+                [
+                    {
+                        "Name Of Subsidiary": "Building and Construction Company (BCC)",
+                        "Percentage Of Property": "80.00%",
+                        "Main Business": "Construction",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Nesaj Urban Development Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Construction and Real Estate Activities",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Adara Real Estate",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Real estate activities",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Tadbeir Limited Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Facilities managment",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Tadbeir Environmental Services Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Water, sanitation, waste management and treatment",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    }
+                ]
+            ],
+            "Quarterly_Statement_Of_Income": [
+                [
+                    {
+                        "Name": "Retal Urban Development Co.",
+                        "Price": "11.11",
+                        "Change %": "-1.81%",
+                        "col_3": "-"
+                    }
+                ],
+                [
+                    {
+                        "Announced Date": "04/08/2025",
+                        "Eligibility Date": "29/09/2025",
+                        "Distribution Date": "09/10/2025",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.11"
+                    },
+                    {
+                        "Announced Date": "02/03/2025",
+                        "Eligibility Date": "04/05/2025",
+                        "Distribution Date": "15/05/2025",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.11"
+                    },
+                    {
+                        "Announced Date": "31/07/2024",
+                        "Eligibility Date": "29/09/2024",
+                        "Distribution Date": "10/10/2024",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    },
+                    {
+                        "Announced Date": "28/02/2024",
+                        "Eligibility Date": "05/05/2024",
+                        "Distribution Date": "16/05/2024",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    },
+                    {
+                        "Announced Date": "01/08/2023",
+                        "Eligibility Date": "28/09/2023",
+                        "Distribution Date": "10/10/2023",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    }
+                ],
+                [
+                    {
+                        "Statement of Income": "Sales",
+                        "2022-12-31": "1,106,830",
+                        "2021-12-31": "1,085,321",
+                        "2020-12-31": "587,451",
+                        "2019-12-31": "456,536"
+                    },
+                    {
+                        "Statement of Income": "Sales Cost",
+                        "2022-12-31": "809,667",
+                        "2021-12-31": "839,860",
+                        "2020-12-31": "463,142",
+                        "2019-12-31": "379,134"
+                    },
+                    {
+                        "Statement of Income": "Total Income",
+                        "2022-12-31": "297,163",
+                        "2021-12-31": "245,461",
+                        "2020-12-31": "124,309",
+                        "2019-12-31": "77,402"
+                    },
+                    {
+                        "Statement of Income": "Other Revenues",
+                        "2022-12-31": "53,525",
+                        "2021-12-31": "23,438",
+                        "2020-12-31": "15,093",
+                        "2019-12-31": "24,477"
+                    },
+                    {
+                        "Statement of Income": "Total Revenues",
+                        "2022-12-31": "350,688",
+                        "2021-12-31": "268,899",
+                        "2020-12-31": "139,402",
+                        "2019-12-31": "101,879"
+                    },
+                    {
+                        "Statement of Income": "Admin and Marketing Expenses",
+                        "2022-12-31": "70,745",
+                        "2021-12-31": "51,263",
+                        "2020-12-31": "27,617",
+                        "2019-12-31": "24,074"
+                    },
+                    {
+                        "Statement of Income": "Depreciation",
+                        "2022-12-31": "8,179",
+                        "2021-12-31": "7,859",
+                        "2020-12-31": "6,517",
+                        "2019-12-31": "5,458"
+                    },
+                    {
+                        "Statement of Income": "Other Expenses",
+                        "2022-12-31": "15,121",
+                        "2021-12-31": "7,979",
+                        "2020-12-31": "1,924",
+                        "2019-12-31": "8,024"
+                    },
+                    {
+                        "Statement of Income": "Total Expenses",
+                        "2022-12-31": "94,045",
+                        "2021-12-31": "67,101",
+                        "2020-12-31": "36,058",
+                        "2019-12-31": "37,556"
+                    },
+                    {
+                        "Statement of Income": "Net Income Before Zakat",
+                        "2022-12-31": "256,643",
+                        "2021-12-31": "201,798",
+                        "2020-12-31": "103,344",
+                        "2019-12-31": "64,323"
+                    },
+                    {
+                        "Statement of Income": "Zakat",
+                        "2022-12-31": "10,899",
+                        "2021-12-31": "8,463",
+                        "2020-12-31": "4,711",
+                        "2019-12-31": "4,630"
+                    },
+                    {
+                        "Statement of Income": "Net Income",
+                        "2022-12-31": "245,744",
+                        "2021-12-31": "193,335",
+                        "2020-12-31": "98,633",
+                        "2019-12-31": "59,693"
+                    },
+                    {
+                        "Statement of Income": "Balance First Period",
+                        "2022-12-31": "134,060",
+                        "2021-12-31": "127,462",
+                        "2020-12-31": "88,692",
+                        "2019-12-31": "38,775"
+                    },
+                    {
+                        "Statement of Income": "Reserves",
+                        "2022-12-31": "24,574",
+                        "2021-12-31": "19,372",
+                        "2020-12-31": "9,863",
+                        "2019-12-31": "5,969"
+                    },
+                    {
+                        "Statement of Income": "Cash Dividends",
+                        "2022-12-31": "80,000",
+                        "2021-12-31": "147,750",
+                        "2020-12-31": "50,000",
+                        "2019-12-31": "-"
+                    },
+                    {
+                        "Statement of Income": "Other Distributions",
+                        "2022-12-31": "385",
+                        "2021-12-31": "20,000",
+                        "2020-12-31": "-",
+                        "2019-12-31": "3,806"
+                    },
+                    {
+                        "Statement of Income": "Balance End Period",
+                        "2022-12-31": "274,844",
+                        "2021-12-31": "134,060",
+                        "2020-12-31": "127,462",
+                        "2019-12-31": "88,692"
+                    },
+                    {
+                        "Statement of Income": "All Figures in",
+                        "2022-12-31": "Thousands",
+                        "2021-12-31": "Thousands",
+                        "2020-12-31": "Thousands",
+                        "2019-12-31": "Thousands"
+                    },
+                    {
+                        "Statement of Income": "All Currency In",
+                        "2022-12-31": "^",
+                        "2021-12-31": "^",
+                        "2020-12-31": "^",
+                        "2019-12-31": "^"
+                    },
+                    {
+                        "Statement of Income": "Last Update Date",
+                        "2022-12-31": "2023-03-06",
+                        "2021-12-31": "2022-07-19",
+                        "2020-12-31": "2022-07-14",
+                        "2019-12-31": "2022-07-18"
+                    }
+                ],
+                [
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
+                        "Designation": "Board of Directors",
+                        "Total Shares Held Trading Day": "3.5700000%",
+                        "Total Shares Held Prev Trading Day": "3.5700000%",
+                        "Total Shares Change": "0"
+                    },
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
+                        "Designation": "Senior Executives",
+                        "Total Shares Held Trading Day": "3.5700000%",
+                        "Total Shares Held Prev Trading Day": "3.5700000%",
+                        "Total Shares Change": "0"
+                    },
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "خالد مالك رفيق صادق الشريف",
+                        "Designation": "Board of Directors",
+                        "Total Shares Held Trading Day": "0.0000400%",
+                        "Total Shares Held Prev Trading Day": "0.0000400%",
+                        "Total Shares Change": "0"
+                    }
+                ],
+                [
+                    {
+                        "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
+                    },
+                    {
+                        "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
+                    },
+                    {
+                        "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
+                    }
+                ],
+                [
+                    {
+                        "Name Of Subsidiary": "Building and Construction Company (BCC)",
+                        "Percentage Of Property": "80.00%",
+                        "Main Business": "Construction",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Nesaj Urban Development Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Construction and Real Estate Activities",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Adara Real Estate",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Real estate activities",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Tadbeir Limited Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Facilities managment",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    },
+                    {
+                        "Name Of Subsidiary": "Tadbeir Environmental Services Company",
+                        "Percentage Of Property": "100.00%",
+                        "Main Business": "Water, sanitation, waste management and treatment",
+                        "Location Of Operation": "Saudi Arabia",
+                        "Country Of Operation": "Saudi Arabia"
+                    }
+                ]
+            ],
+            "Quarterly_Cash_Flows": [
+                [
+                    {
+                        "Name": "Retal Urban Development Co.",
+                        "Price": "11.11",
+                        "Change %": "-1.81%",
+                        "col_3": "-"
+                    }
+                ],
+                [
+                    {
+                        "Announced Date": "04/08/2025",
+                        "Eligibility Date": "29/09/2025",
+                        "Distribution Date": "09/10/2025",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.11"
+                    },
+                    {
+                        "Announced Date": "02/03/2025",
+                        "Eligibility Date": "04/05/2025",
+                        "Distribution Date": "15/05/2025",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.11"
+                    },
+                    {
+                        "Announced Date": "31/07/2024",
+                        "Eligibility Date": "29/09/2024",
+                        "Distribution Date": "10/10/2024",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    },
+                    {
+                        "Announced Date": "28/02/2024",
+                        "Eligibility Date": "05/05/2024",
+                        "Distribution Date": "16/05/2024",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    },
+                    {
+                        "Announced Date": "01/08/2023",
+                        "Eligibility Date": "28/09/2023",
+                        "Distribution Date": "10/10/2023",
+                        "Distribution Way": "Account Transfer",
+                        "Dividend Amount": "^0.16"
+                    }
+                ],
+                [
+                    {
+                        "Cash Flows": "Net Income",
+                        "2022-12-31": "256,642",
+                        "2021-12-31": "201,797",
+                        "2020-12-31": "103,344",
+                        "2019-12-31": "64,323"
+                    },
+                    {
+                        "Cash Flows": "Depreciation",
+                        "2022-12-31": "13,862",
+                        "2021-12-31": "14,315",
+                        "2020-12-31": "12,432",
+                        "2019-12-31": "9,428"
+                    },
+                    {
+                        "Cash Flows": "Accounts Receivable",
+                        "2022-12-31": "23,960",
+                        "2021-12-31": "-193,619",
+                        "2020-12-31": "10,591",
+                        "2019-12-31": "-60,703"
+                    },
+                    {
+                        "Cash Flows": "Inventory",
+                        "2022-12-31": "-3,453",
+                        "2021-12-31": "9,745",
+                        "2020-12-31": "-17,887",
+                        "2019-12-31": "-912"
+                    },
+                    {
+                        "Cash Flows": "Prepaid Expenses",
+                        "2022-12-31": "48,592",
+                        "2021-12-31": "-67,635",
+                        "2020-12-31": "-64,806",
+                        "2019-12-31": "-6,176"
+                    },
+                    {
+                        "Cash Flows": "Accounts Payable",
+                        "2022-12-31": "212,391",
+                        "2021-12-31": "204,903",
+                        "2020-12-31": "97,301",
+                        "2019-12-31": "54,081"
+                    },
+                    {
+                        "Cash Flows": "Other Changes in Oper. Activity",
+                        "2022-12-31": "-674,809",
+                        "2021-12-31": "65,129",
+                        "2020-12-31": "-177,548",
+                        "2019-12-31": "-23,891"
+                    },
+                    {
+                        "Cash Flows": "Purchases of Fixed Assets",
+                        "2022-12-31": "-43,925",
+                        "2021-12-31": "-10,570",
+                        "2020-12-31": "-27,978",
+                        "2019-12-31": "-2,711"
+                    },
+                    {
+                        "Cash Flows": "Other Changes in Investing Act.",
+                        "2022-12-31": "126,814",
+                        "2021-12-31": "-2,022",
+                        "2020-12-31": "-143,168",
+                        "2019-12-31": "23,097"
+                    },
+                    {
+                        "Cash Flows": "Increase in Debts",
+                        "2022-12-31": "115,053",
+                        "2021-12-31": "500,330",
+                        "2020-12-31": "198,400",
+                        "2019-12-31": "-"
+                    },
+                    {
+                        "Cash Flows": "Other Changes in Financing Act.",
+                        "2022-12-31": "-83,405",
+                        "2021-12-31": "-379,376",
+                        "2020-12-31": "15,182",
+                        "2019-12-31": "-131,954"
+                    },
+                    {
+                        "Cash Flows": "Cash at Begining of Period",
+                        "2022-12-31": "32,414",
+                        "2021-12-31": "64,981",
+                        "2020-12-31": "4,112",
+                        "2019-12-31": "85,055"
+                    },
+                    {
+                        "Cash Flows": "Cash at End of Period",
+                        "2022-12-31": "24,136",
+                        "2021-12-31": "407,978",
+                        "2020-12-31": "9,975",
+                        "2019-12-31": "9,637"
+                    },
+                    {
+                        "Cash Flows": "All Figures in",
+                        "2022-12-31": "Thousands",
+                        "2021-12-31": "Thousands",
+                        "2020-12-31": "Thousands",
+                        "2019-12-31": "Thousands"
+                    },
+                    {
+                        "Cash Flows": "All Currency In",
+                        "2022-12-31": "^",
+                        "2021-12-31": "^",
+                        "2020-12-31": "^",
+                        "2019-12-31": "^"
+                    },
+                    {
+                        "Cash Flows": "Last Update Date",
+                        "2022-12-31": "2023-03-06",
+                        "2021-12-31": "2022-07-19",
+                        "2020-12-31": "2022-07-14",
+                        "2019-12-31": "2022-07-18"
+                    }
+                ],
+                [
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
+                        "Designation": "Board of Directors",
+                        "Total Shares Held Trading Day": "3.5700000%",
+                        "Total Shares Held Prev Trading Day": "3.5700000%",
+                        "Total Shares Change": "0"
+                    },
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "عبدالله فيصل عبدالعزيز البريكان",
+                        "Designation": "Senior Executives",
+                        "Total Shares Held Trading Day": "3.5700000%",
+                        "Total Shares Held Prev Trading Day": "3.5700000%",
+                        "Total Shares Change": "0"
+                    },
+                    {
+                        "Trading Date": "2026-01-08",
+                        "Shareholders": "خالد مالك رفيق صادق الشريف",
+                        "Designation": "Board of Directors",
+                        "Total Shares Held Trading Day": "0.0000400%",
+                        "Total Shares Held Prev Trading Day": "0.0000400%",
+                        "Total Shares Change": "0"
+                    }
+                ],
+                [
+                    {
+                        "Retal Urban Development Co.": "Price   \t\n                                       \t10.85"
+                    },
+                    {
+                        "Retal Urban Development Co.": "Total Market Cap (SAR MN)                                     \n\t                                        \n\t\t                                       \t5,425"
+                    },
+                    {
+                        "Retal Urban Development Co.": "P/E Ratio  \n                                       \t                                        \t \n                                       \t \n                                       \t \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t18.2"
                     }
                 ],
                 [
